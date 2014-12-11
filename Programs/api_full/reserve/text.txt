@@ -1,0 +1,44 @@
+1 ddd select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 and n.urgent = 1 order by n.IdNews desc,n.`Date` desc limit 0,5 
+ 
+1 ddd select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 and n.urgent = 1 order by n.IdNews desc,n.`Date` desc limit 0,5 
+ 
+1 ddd select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 and n.urgent = 1 order by n.IdNews desc,n.`Date` desc limit 0,5 
+ 
+1 ddd select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 and n.urgent = 1 order by n.IdNews desc,n.`Date` desc limit 0,5 
+ 
+1 ddd select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 and n.urgent = 1 order by n.IdNews desc,n.`Date` desc limit 0,5 
+ 
+1 ddd select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 and n.urgent = 1 order by n.IdNews desc,n.`Date` desc limit 0,5 
+ 
+1 ddd select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 and n.urgent = 1 order by n.IdNews desc,n.`Date` desc limit 0,5 
+ 
+1 ddd select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 and n.urgent = 1 order by n.IdNews desc,n.`Date` desc limit 0,5 
+ 
+1 ddd select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 and n.urgent = 1 order by n.IdNews desc,n.`Date` desc limit 0,5 
+ 
+1 ddd select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 and n.urgent = 1 order by n.IdNews desc,n.`Date` desc limit 0,5 
+ 
+1 ddd select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 and n.urgent = 1 order by n.IdNews desc,n.`Date` desc limit 0,5 
+ 
+1 ddd select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 and n.urgent = 1 order by n.IdNews desc,n.`Date` desc limit 0,5 
+ 
+1 ddd select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 and n.urgent = 1 order by n.IdNews desc,n.`Date` desc limit 0,5 
+ 
+1 ddd select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 and n.urgent = 1 order by n.IdNews desc,n.`Date` desc limit 0,5 
+ 
+1 ddd select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 and n.urgent = 1 order by n.IdNews desc,n.`Date` desc limit 0,5 
+ 
+1 ddd select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 and n.urgent = 1 order by n.IdNews desc,n.`Date` desc limit 0,5 
+ 
+1 ddd select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 and n.urgent = 1 order by n.IdNews desc,n.`Date` desc limit 0,5 
+ 
+1 ddd select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 and n.urgent = 1 order by n.IdNews desc,n.`Date` desc limit 0,5 
+ 
+1 ddd select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 and n.urgent = 1 order by n.IdNews desc,n.`Date` desc limit 0,5 
+ 
+1 ddd select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 and n.urgent = 1 order by n.IdNews desc,n.`Date` desc limit 0,5 
+ 
+1 ddd select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 and n.urgent = 1 order by n.IdNews desc,n.`Date` desc limit 0,5 
+ 
+1 ddd select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 and n.urgent = 1 order by n.IdNews desc,n.`Date` desc limit 0,5 
+ 

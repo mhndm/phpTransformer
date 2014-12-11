@@ -1,0 +1,4 @@
+each folder is an album
+in each album add a picture with the following name :thumb.tmb if you want chage the default icon for current folder
+for media like video sounds or any other file (not image) , u can put an thumbnail in folder name : thumbs in each album(folder) with the following name : FileName.ExtensionOfFileType.png
+please dont copy a lot of files in one directory , for fast browsing reason

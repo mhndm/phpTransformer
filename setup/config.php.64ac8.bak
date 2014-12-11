@@ -1,0 +1,23 @@
+<?php
+$project			= "PhpTransformer"; //dont change it !!
+$WebsiteUrl 		= "http://localhost/phptransformer/"; //ex: phpTransformer.com/release/
+$WebiteFolder 		= "phptransformer";
+$WebSiteName 		= "phptransformer.com"; //ex: phpTransformer.com
+$WebsiteDesc 		= "php Transformer WebSite";//ex: php Transformer  WebSite
+
+$SmtpHost 		= "smtp-mail.outlook.com";//ex:  192.168.0.2
+$SmtpPort		= 587; //ex: 25
+$SMTPusername		= "info@forsale-lebanon.com"; //ex: me@mycompany.com
+$SMTPpassword		= "F0maif44"; 
+$SMTPSecure             = "tls";
+
+$dbHostName 		= "127.0.0.1" ; //ex: localhost
+$dbBaseName 		= "demo" ; //ex: transformer
+$SqlType 		= "MySql" ; // ex: MySql
+$MySqlConnectType	= "standard"; // mysql_pconnect :"persistent"  , mysql_connect : "standard"
+$dbUserPass		= array(array("root","")); //ex : array(array("UserName","Password"));
+$AdminFileName 		= "admin(renamed).php" ; // ex: admin(renamed).php
+$DisplayErrors 		= "yes" ;// ex: yes
+$store_error_in_db      = "no"; // ex: yes
+$SessionPath		=  realpath(".")."/sesstmp";
+?>

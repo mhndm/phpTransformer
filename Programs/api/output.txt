@@ -1,0 +1,6 @@
+Could not execute: /var/qmail/bin/sendmail
+
+Could not execute: /var/qmail/bin/sendmail
+
+Could not execute: /var/qmail/bin/sendmail
+

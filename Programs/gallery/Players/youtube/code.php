@@ -1,0 +1,1 @@
+<iframe title="YouTube video player" width="{YTwidth}" height="{YTheight}" src="http://www.youtube.com/embed/{YouTubeID}" frameborder="0" allowfullscreen></iframe>

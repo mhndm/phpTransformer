@@ -1,0 +1,26 @@
+0 fff select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 order by n.IdNews desc,n.`Date` desc limit 0,10 
+ 
+0 fff select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 order by n.IdNews desc,n.`Date` desc limit 0,10 
+ 
+0 fff select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 order by n.IdNews desc,n.`Date` desc limit 0,10 
+ 
+0 fff select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 order by n.IdNews desc,n.`Date` desc limit 0,10 
+ 
+0 fff select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 order by n.IdNews desc,n.`Date` desc limit 0,10 
+ 
+0 fff select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 order by n.IdNews desc,n.`Date` desc limit 0,10 
+ 
+0 fff select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 order by n.IdNews desc,n.`Date` desc limit 0,10 
+ 
+0 fff select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 order by n.IdNews desc,n.`Date` desc limit 0,10 
+ 
+0 fff select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 order by n.IdNews desc,n.`Date` desc limit 0,10 
+ 
+0 fff select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 order by n.IdNews desc,n.`Date` desc limit 0,10 
+ 
+0 fff select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 order by n.IdNews desc,n.`Date` desc limit 0,10 
+ 
+select * from languages as l,news as n,newslang as nl where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 and l.LangName = 'Arabic' and n.Date <= '2014-06-02 12:35:38' and n.IdNews != '20140000039' order by n.Date desc,n.IdNews desc limit 0,100 fff select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 order by n.IdNews desc,n.`Date` desc limit 0,10 
+ 
+select * from languages as l,news as n,newslang as nl where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 and l.LangName = 'Arabic' and n.Date <= '2014-06-02 12:35:38' and n.IdNews != '20140000039' order by n.Date desc,n.IdNews desc limit 0,100 fff select * from news as n,newslang as nl,languages as l where l.IdLang = nl.IdLang and n.IdNews = nl.IdNews and n.Active = 1 and n.Deleted != 1 order by n.IdNews desc,n.`Date` desc limit 0,10 
+ 

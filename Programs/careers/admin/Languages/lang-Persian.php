@@ -1,0 +1,111 @@
+<?php 
+/*********************************************** 
+*
+*    Project: phpTransformer.com .
+*    Description: phpTransformer Translation Engine	.
+*    License: http://www.gnu.org/licenses/agpl-3.0-standalone.html .
+*    Author : Faten Abdallah 2014,fatinabdallah@yahoo.com
+*    
+***********************************************/ 
+define('CvId','مرجع درخواست'); 
+define('CvNotes','محتوای درخواست را به خوبی بخوانید'); 
+define('PersonalInfo','اطلاعات شخصی'); 
+define('FirstName','نام'); 
+define('FatherName','نام پدر'); 
+define('MotherName','نام مادر'); 
+define('GrandFatherName','نام پدر بزرگ'); 
+define('FamilyName','نام خانوادگی'); 
+define('BirthDate','تاریخ تولد'); 
+define('BirthLocation','محل تولد'); 
+define('Sex','جنس'); 
+define('Nationality','تابعیت'); 
+define('SegelNbr','رکورد'); 
+define('SegelLocation','شماره رکورد'); 
+define('DamanNbr','شماره بیمه'); 
+define('MaritalStatus','وضعیت اجتماعی'); 
+define('Celibate','مجرد'); 
+define('Mariage','ازدواج کرده'); 
+define('Widower','بیوه '); 
+define('Divorced','طلاق گرفته '); 
+define('Fiance','نامزد داره'); 
+define('SpendName','نام کسانی که مسؤولیت آنها را دارید'); 
+define('Relative','بستگان'); 
+define('HealthStatus','وضعیت سلامتی'); 
+define('DidUInfectedIn','آیا شما مبتلا به'); 
+define('Hearing','افت شنوایی'); 
+define('Viewing','دید پایین'); 
+define('Talking','ضعف در تلفظ'); 
+define('DidUSmoke','آیا سیگار می کشید؟'); 
+define('DidUDoObliging',''); 
+define('ObligingOther','اعتراضی در مورد خدمت'); 
+define('ContactInfo','اطلاعات تماس'); 
+define('Town','شهر'); 
+define('Rue','خیابان'); 
+define('Building','ساختمان'); 
+define('BuildOwner','صاحب ساختمان'); 
+define('Phone','شماره تلفن'); 
+define('Cellulaire','شماره موبایل'); 
+define('EducationSkills','مهارت های علمی'); 
+define('EducationLevel','سطح آموزشی'); 
+define('Average','معدل'); 
+define('CertifecateFrom','گواهی دهنده'); 
+define('CertifecateYear','سال فارغ التحصیلی'); 
+define('SpecialCycles','دوره های مخصوص'); 
+define('CycleName','نام دوره'); 
+define('CycleInterval','مدت دوره'); 
+define('SkillsFromCycle','مهارت هایی که از دوره به دست آوردید'); 
+define('CycleFrom','ستاد برگزار کننده دوره'); 
+define('CycleDate','تاریخ دوره'); 
+define('ForeignLang','زبان'); 
+define('LangName','نام زبان'); 
+define('Read','خواندن'); 
+define('Write','نوشتن'); 
+define('Speak','مکالمه'); 
+define('Excellent','عالی'); 
+define('Good','خوب'); 
+define('Moyen','متوسط'); 
+define('UnderMoyen','زیر متوسط'); 
+define('LevelInComputer','سطح در زمینه استفاده از کامپیوتر'); 
+define('DontKnow','نمی دانم'); 
+define('Driver','عملگر'); 
+define('Programer','برنامه نویس'); 
+define('OtherExperience','تجربه های دیگر'); 
+define('CompName','شرکت'); 
+define('ConctactMethode','وسیله ارتباط'); 
+define('FromDate','از تاریخ'); 
+define('ToDate','تا تاریخ'); 
+define('OldJob','نوع کار'); 
+define('LastSalary','قیمت آخرین حقوق'); 
+define('WhyLeft','دلیل ول کردن'); 
+define('MustExcutingInOldJobs','مهم ترین دستآورد هایی که در کار قبلی تان انجام دادید'); 
+define('DiduDoAnotherJobsOverTime','آیا کاری بعد از ساعت کار رسمی انجام می دهید؟'); 
+define('DoYouRejectWorkOverTime','آیا مشکلی با کار اضافی دارید؟'); 
+define('DoYouRejectCallingOldJob','آیا شما مشکلی با تماس گرفتن با محل کار قبلیتان دارید'); 
+define('HowDoYouHearAboutUs','چطوری با ما آشنا شدید؟'); 
+define('WhyYouWantToJoin','چرا می خواهید به ما بپیوندید؟'); 
+define('WhatJobYouWish','نوع کاری که به آن اقدام می کنید'); 
+define('WhenUCanStart','کی می توانید کار راشروع کنید؟'); 
+define('WishedSalary','حقوق و دستمزد مورد انتظار'); 
+define('TalkAboutSkillsInThisJob','در مورد مهارت هایی که دارید، که به این کار ربط دارد، حرف بزنید'); 
+define('DidYouSendUsAnCV','آیا قبلا درخواستی به این شرکت داده اید؟'); 
+define('ifYesWriteCVNumberHereAndDate','اگر بله، تاریخ و شماره درخواست را معین کنید'); 
+define('DoYouHaveNearbyInTheCompany','آیا بستگانی دارید که در این شرکت در حال حاضر کار می کنند؟'); 
+define('WriteThreeNamesUKnowFromOutsideTheCompany','نام سه نفری از خارج از شرکت و غیر از بستگان که شما را معرفی کردند'); 
+define('OutName','نام کامل'); 
+define('OutContact','وسیله ارتباط'); 
+define('OutJobDesc','نوع کار'); 
+define('YouPicture','عکس خود'); 
+define('MaxImageSizeMustBe','حد اکثر حجم عکس 60kb'); 
+define('TrueInfo','اگر درخواست من تأیید شد، باید قوانین داخلی این شرکت را رعایت کنم'); 
+define('PleaseEnterthisCVCode','لطفا این کد را بنویسید'); 
+define('InThisField','در این کادر'); 
+define('WeReceiveUreCVAndWeContactUWenDone','درخواست شما را دریافت کردیم، آن را بررسی خواهیم کرد، و با شما تماس می گیریم، شماره درخواست شما در زیر می باشد'); 
+define('NewCvFromWebsite','درخواست کار جدید'); 
+define('YourCvInWebsite','سی وی در سایت'); 
+define('DoUWantToDeleteThisCV','آیا شما می خواهید این درخواست را به طور کامل حذف کنید؟'); 
+define('ViewCV','نمایش درخواست'); 
+define('ErrThisCVNmbrNotFound','خطا، این درخواست کار وجود ندارد'); 
+define('ThereIsNoCVS','در حال حاضر درخواست کار وجود ندارد'); 
+define('successDeleteCvNbr','درخواست کار با شماره زیر با موفقیت حذف شد'); 
+define('careers','درخواست کار'); 
+?>

@@ -1,0 +1,10 @@
+<IfModule mod_php4.c>
+php_value session.use_only_cookies 1
+php_value session.use_trans_sid 0
+</IfModule>
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^page/([^/\.]+)/?$ rewrite.php?page=$1 [L]
+</IfModule>

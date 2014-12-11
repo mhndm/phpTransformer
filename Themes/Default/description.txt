@@ -1,0 +1,6 @@
+<strong>Theme Name </strong> : Default
+<strong>Theme URI </strong>: http://phptransformer.com
+<strong>Description </strong> : this theme is made by phpTransformer team
+<strong>Author </strong> : Mohsen Mousawi
+<strong>Version </strong> : 1.1
+<strong>Tags </strong> : black, blue,red,green, white, one columns, fixed-width, custom-header, custom-background, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style

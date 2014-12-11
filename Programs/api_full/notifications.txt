@@ -1,0 +1,1 @@
+update users set android_id = 'APA91bFaNE_8OraJ0dL-fEhwS1XmPyboJDm7b8KZ6LQGtZ7t4vgoxWslw1Y0bnyejddB1iDfk6YJivyt3ZILVP-YFdaKiF1M8jB0rbj6YXqH2pIbJjvijtMP2W39kW7gTdOCggNtLbpsSHkwbQfJTKZKDhLHBRX6JQ' where UserId = '200700000-1'

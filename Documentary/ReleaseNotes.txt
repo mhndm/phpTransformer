@@ -1,0 +1,490 @@
+Version 2014.x
+--------------
+English language
+
+pagination for : new , members
+SEO add author for news and admin for others
+replace mysql_ with mysqli_
+gallery hide and show ajax , delete now delete files
+
+
+اللغة العربية 
+
+تقسيم الاخبار و الاعضاء عى صفحات
+وضع الكاتب للخبر في الميتا و المدير لباقي الصفحات 
+استدال mysql_ ب mysqli_
+المعرض اصبح بالامكان الاخفاء و الاظهار و الحذف بشكل سلس
+
+
+
+
+Version 2014.3
+--------------
+English language
+
+bug fix of user email in the contact us application
+add to setup default configuration of index.php
+remove login constant from Account application
+add Hour constant
+update tcpdf to version 5.9.193
+remove alert from layers menu when images not exist
+add some contants to main lang files Arabic and English
+hr width in statistics block
+update phpmailer to version 5.1
+add $AdamSign to global file
+add br tag after select in the languages block
+order desc for news categories ad display only the date in the archive
+add scroller to gallery
+add $idLang to global
+add $Prog to global
+set English lang as default for the admin webfolder
+add Deutsch lang to Tiny_mce
+add Tabs the Pages and News application and Letters 
+add continue and redirect GET variables to redirect after do some process like login
+create tabs for multi lang pages news gallery and letters
+bug fix on edit translation when last character line is space
+change the default files loctation for news and gallery to /uploads and /downloads
+after login , redirect take now 1 second
+improvement of themes preview when visit multiple pages
+re design the list of Themes
+now you can modify the themes online
+now you can switch between http and https easly
+the HTML code generated is now low about 6% 
+When you save news , now you can chose the end date for the scroll bar
+Pages application now have Themes
+when you upload files , now default will appear to the visitors.
+in the pages admin , list pages , add link to page title for fast browsing
+now you can go from bloacks and programs control to managment by click
+user when sign up take the admin default theme
+links now can have # on the CreateLink function
+replace tiny_mce by elrte editor
+set $IdLang as global on admin interface
+add input hidden contain session_id to $LastLineCode in MetaTags.php 
+
+اللغة العربية :
+
+تصحيح مشكلة في تطبيق الاتصال بنا عند التحقق من البريد 
+اضافة خاصية جعل الملف index.php على خصائص تنصيب البرنامج
+حذف كلمة login من تطبيق تسجيل الدخول
+اضافة ثابتة Hour الى الترجمة
+تحديث tcpdf الى الاصدارة 5.9.193
+ازالة ظهور الخطأ في اللوائح المنسدلة في حال عدم وجود الصور
+اضافة بعض الكلمات لملفات اللغة العربية و الانكليزية
+تحديد عرض الخط في بلوك الاحصائيات
+تحديث phpmailer لاصدار 5.1
+اضافة $AdamSign لملف global
+اضافة br بعد select في بلوك اللغات
+ترتيب عكسي للاخبار حسب الفئة و اظهار التاريخ فقط دون الساعة في الارشيف
+اضافة محرك للصور في المعرض
+اضافة $idLang للمتغيرات العامة
+اضافة $Prog للمتغيرات العامة لمعرفة التطبيق الذي يعمل حاليا
+جعل اللغة الانكليزية هي الافتراضية في ملفات الموقع للمدير
+اضافة اللغة الالمانية الى tiny_mce 
+تعديل ادارة تطبيق الصفحات و الاخبار بحيث اصبح ظهورهم بشكل اجمل
+اضافة متغيريين من نوع GET للتحويل الى عنوان اخر بعد اتمام بعض العمليات مثل تسجيل الدخول
+اضافة السنة للصفحات و الاخبار و المعرض و الرسائل عند تعدد اللغات
+تصحيح مشكلة تحرير الترجمة عنددما يكون اخر السطر فراغ
+تغيير مكان الملفات الافتراضية للمعرض و الخبار الى /uploads /downloads
+ببعد تسجيل الدخول عملية اعادة التوجيه تاخذ الان ثانية واحد فقط بدل 5
+تحسين عرض اشكال الموقع عند التنقل بين الصفحات
+اعادة تصميم لائحة اشكال الموقع لتبدو اجمل
+الان يمكن تخصيص اشكال الموقع
+الان يمكنك التحول بين البروتوكولات http و https بكل سهولة
+كود HTML المولد الان اقل حوالي 6٪ اقل مما يوفر حجم المعلومات المتبادلة
+عند حفظ الخبر يمكنك اختيار المدة لظهور شريط الاخبار بسكل اوتوماتيكي
+أصبح الآن للصفحات شكل يمكن تخصيصه
+الان عند رفع ملفات جديدة الى المعرض سيتم اظهارها بسكل افتراضي للزوار
+في لوحة تحكم تطبيق الصفحات يمكنك زيارة الصفحة عبر الرابط على عنوان الصفحة
+الان يمكنك الذهاب من التحكم بالبلوكات او البرامج بالنقر على اسم العنصر
+اصبح المستخدم عند التسجيل ياخذ الشكل الذي اختاره المدير بشكل افتراضي
+تم زيادة خيار # الى CreateLink function
+تبديل tiny_mce ب elrte 
+جعل $IdLang global لجهة المدير
+اضافة input hidden يحتوي session_id الى $LastLineCode في MetaTags.php 
+
+
+Version 2012.7
+--------------
+English language
+
+add @ to set_time_limit
+add option to delete index.html from the root
+fix the problem of undefined constant of some object in the page of new admins
+fix security issue when get page number
+now the sql errors will not appear when admin chose to hide coding errors
+bug fix for special permissions
+bug fix when error log contain ' character
+layers menu :
+    fix the appearance the fields of deleted languages still in the recycle bin.
+bug fix if PT run in subdomain
+add css class to the word "latest news" in the marque news bar
+now you can set one or two columns for the brief news
+Add to total number of registered users to Global.php
+disable all plugins after auto update
+remove the die command form layers menu errors , and just echo the error
+for better appearence, we modify the length of input text to 50 characters
+fix bug of dsabled banners in the ads system
+now the website administrator cannot delete Guest user or the Adam user
+modifying the Default theme to accepte Logo picture named custlogo.jpg to avoid overwrite with update
+news bug fix in the news application when user browse news by categories
+modifying the news and gallery application to show the user name and family in the comments
+fix bug of $MembersDBSQL in Global.php
+modify the dUnzip2 class to set the default permissions of files 0755
+
+
+
+اللغة العربية :
+إضافة @ لجميع دوال set_time_limit
+اضافة خيار حذف الملف index.html من المجلد الرئيسي للبرنامج
+حل مشكلة عدم وجود ترجمة لإسم بعض عناصر في صفحة صلاحيات المديرين الجدد
+اصلاح مشكلة امنية تتعلق بالحصول على رقم الصفحة
+الان ستختفي الاخطاء من نوع اس كيو ال في حال تم اختيار عدم اظهار الاخطاء البرمجية
+تم اصلاح مشكلة عدم تطبيق الصلاحية على الاذونات الخاصة في الصفحات
+اصلاح مشكلة ظهور الخانات الخاصة بلغة تم حذفها و لم تحذف نهائيا من سلة المحذوفات
+اصلاح مشكلة وجود الحرف ' في سجل الاخطاء
+اصلاح مشكلة في حال كان البرنامج يعمل على موقع فرعي
+اضافة خيار لشريط الاخبار لتخصيص شكل كلمة "أخبار الموقع"
+مختصر الاخبار في برنامج الاخبار اصبح الان له خياران اظهار عامودين او واحد لللعرض
+اضافة عدد الاعضاء المسجلين الكلي الى ملف Global.php
+تعطيل جميع الاضافات بعد التحديث التلقائي
+تم نزع ايقاف الصفحة في حال ورود خطأ في اللوائح المنسدلة و استبدالها بطبع الخطأ فقط
+تعديل خيارات الموقع في لوحة تحكم المدير بحيث اصبحت خانات الادخال الطويلة تتسع ل50 حرف و ذلك من اجل مظهر افضل
+اصلاح مشكلة ظهور الاعلانات الموقوفة في النظام الاعلاني
+الان لا يمكن لمدير الموقع حذف المستخدم Guest او المستخدم Adam
+تعديل ثيم الافتراضي حتى تتقبل اخذ صورة اللوغو باسم  custlogo.jpg حتى لا يتم استبدالها بالتحديث
+حل مشكلة ظهور اخبار محذوفة عند استعراض الاخبار حسب النوع
+تعديل في تعليقات تطبيقي الاخبار و المعرض بحيث يظهر اسم المعلق و عائلته بدل اسم الكنية الخاصة بتسجيل الدخول
+تصحيح مشكلة  $MembersDBSQL في الملف Global.php
+تعديل كلاس  dUnzip2 لجعل الصلاحية الافتراضية للملفات و المجلدات هو 0755
+
+
+Version 2012.1
+--------------
+English language
+
+Improvement in the Module install the application if the application was installed on the root or within a sub-domain
+
+Solve the problem of long links that cause error 400, now the title in the links must be less than 20 characters, and so on:
+    The Main menu
+    News Summary and detailed
+    Exhibition
+    Replace the space between the words in the letter _ links
+
+
+Major improvement in the listing:
+    When you delete a page is deleted permanently from Main Menu block
+    Improve the way items are displayed in ascending order the listing in the Control Panel own
+    Solve the problem of the emergence of the listing title after the addition of new language titles on the previous
+
+Updated version of tinymce 3.46
+
+News and pages applications
+    To allow the admin to use all tags
+
+Application of welcome
+    Repair damage of page in the welcome application if user requested language not available.
+
+Block freeBlock
+    Was modified file directory location of index from address (Get)
+
+Add option to create an unlimited number of free blocks automatically
+
+The application of news:
+    Status of the writer's full name instead of nickname.
+
+Block member account:
+    Add a link to the Admin Control Panel in the member account block if user a member of admins
+
+Application of the Gallery:
+    Add upload files immediately from the Admin Gallery Control Panel without having to go to the File Manager.
+    Add the option of creating a folder in the current location.
+
+Admin Control Panel:
+    Add icons to the Gallery and News in the Home page.
+    Solution of problem have access to the application if the application is the same as the main one.
+
+Layers menu:
+    Solve the problem of adding the current language on the external links.
+
+The application of ads:
+    Solution of the problem if there is no list of prices prescribed by the admin
+
+
+اللغة العربية
+
+تحسين في موديول تنصيب التطبيق في حال تم تنصيب التطبيق على الرووت او ضمن نطاق فرعي
+
+حل مشكلة الروابط الطويلة التي تسبب خطأ 400, الان العنوان في الروابط يجب ان تكون اقل من 20 حرف و ذلك في :
+        الائحة الرئيسية
+    مختصر الخبر و تفصيله
+    المعرض
+استبدال الفراغ بين الكلمات في الروابط بالحرف _
+
+
+تحسين في الائحة الرئيسية :
+    عند حذف الصفحة نهائيا يتم حذف اللنك منها
+    تحسين طريقة عرض عناصر الائحة بالترتيب التصاعدي في لوحة التحكم الخاص بها
+    حل مشكلة عدم ظهور عنوان الائحة بعد اضافة لغة جديدة على عنواين سابقة
+
+تحديث نسخة tinymce  3.46
+
+تطبيق الاخبار و الصفحات
+السماح للمدير باستخدام جميع التاجز
+
+تطبيق welcome
+تم اصلاح مشكلة خربطة الصفحة في حال طلب التطبيق بلغة لا تتوفر فيها مضمون للصفحة
+
+بلوك freeBlock
+تم تعديل دليل مكان ملف الاندكس حسب الطلب من العنوان
+
+اضافة خيار لانشاء عدد غير محدود من البلوكات الحرة بشكل اتوماتيكي
+
+تطبيق الاخبار :
+    وضع الاسم الثلاثي للكاتب بدل كنيته
+
+بلوك حساب الاعضاء :
+    اضافة رابط للوحة تحكم المدير في كان العضو من مجموعة المدراء
+
+تطبيق المعرض :
+اضافة رفع ملفات فورا من لوحة تحكم المدير الخاصة به دون الحاجة للذهاب الى مدير الملفات
+اضافة خيار انشاء مجلد
+
+لوحة تحكم المدير : 
+اضافة ايقونات تطبيقي المعرض و الاخبار الى الصفحة الرئيسية للمدير
+حل مشكلة صلاحية الوصول لتطبيق في حال كان هو نفسه التطبيق الرئيسي
+
+اللوائح المنسدلة layers menu :
+حل مشكلة زيادة اللغة على الروابط الخارجية
+
+تطبيق الاعلانات :
+حل مشكلة عدم ظهور الحملات الاعلانية في حال لم يكن هناك لائحة اسعار مقررة من قبل المدير
+
+
+
+Version 2.0
+------------
+
+English language
+
+remove captcha from login account.
+modifie themes :
+	best appearence in firefox linux version
+	add Google analytics code to params
+	
+Modifie Admin panel :
+	Add Permissions for admins, in this version you can add unlimited admins and One Adam admin.
+	replace to program folder name by Program name in current language
+	add permissions tag to desc.php
+	add latest comments for news and gallery programs
+add Meta UTF-8 to flood protection
+modifie statistics system for best performance, and add option to the control pane to enable or disable statistic system.
+in Special permissions , add {Constname} to replace it by languge meaning
+auto set of Default language when change for users and admin.
+auto update notification and process for users have support key
+
+News comment desc order
+Gallery comment desc order, and Auto add Albums folder if not exist, and we can specify the max and min width and height.
+themes now have support license key and preview
+add to the database backup file random text for security reason
+Pages program , now you can chage the home page from the page number 1
+Now phpTransformer more friendly with SE with ping when you add new page or news or gallery item
+infrom user by email when activate his account
+add to bugs report , write bug report at SF
+Ctrl+S 
+Gravatar
+SEO add title pages to : MainMenu, Gallery, news
+now you can share your translation
+remove duplicate entry from error log
+Gmap : add to the admin panel map for ease set to X and Y
+new program : Welcome
+
+Security:
+improvment of XSS vernabilities, Thanks to Mohammad zein eddin
+
+Letters :
+remove mysql_real_escape_string and wirting improvments
+ 
+اللغة العربية :
+
+تم نزع الكابتشا من بلوك تسجيل الدخول للتسهيل و عدم الحاجة لها
+تم تعديل الأشكال Default و Tech لمظهر اجمل في جميع انظمة التشغيل لا سيما اللينكس, و تم وضع كود Google analytics كمتغير ضمن خيارات الموقع .
+تم تحسين عملية تسجيل الدخول و أصبحت آمنة أكثر للأعضاء و المديرين.
+تم اضافة وسم اللغة UTF-8 عند اظهار رسالة الاغراق للموقع في حال تم طلبه بكثرة.
+
+لوحة تحكم المدير :
+تم تعديل شامل للوحة تحكم المدير لتكون أيسر في المعاملة.
+تم وضع صلاحيات للمدراء بعدما كان في السابق مدير واحد فقط , الآن اصبح عدد المدراء غير محدود و هناك مدير رئيسي للموقع اعطيناه صفة "آدم".
+تم وضع اسماء البرامج و البولكات باللغة المحلية بدل اللغة الانكليزية.
+تم اضافة شرح عن التطبيق و كذلك صلاحيات داخلية فيه للوحة تحكم المدير.
+تم تعديل نظام الإحصائيات ليكون ادائه أفضل و يخفف الضغط على الخادم للموقع, كما تم اضافة خيار في لوحة تحكم المدير لتفعيل و تعطيل نظام جمع المعلومات عن الزوار.
+في الأذونات الخاصة تم اضافة {Constname} كي تظهر الصلاحية باللغة المحلية بدل الانكليزية.
+الآن يتم تغيير اللغة المفضلة للمدير عندما يحول المدير لوحة التحكم من لغة الى أخرى دون عناء الدخول للوحة تحكمه و تغييرها.
+الآن يمكن للذين يتمتعون بعقد دعم فني أن يقوموا بتحديث تلقائي للتطبيق دون عناء تنزيل و رفع الملفات, و جميع مستخدمي التطبيق يمكنهم معرفة وجود تحديثات للتطبيق فور صدوره مع رابط له.
+الآن اصبح للأشكال مفتاح ترخيص للدعم الفني, و مشاهدة استعراضية قبل التفعيل.
+يمكنك الآن وضع مفتاح الترخيص بشكل منفصل لكل تطبيق أو بلوك على حدى.
+تم اضافة اسم عشوائي لملف النسخة الاحتياطية من قاعدة البيانات و ذلك لدواعي أمنية.
+تم تحسين مظهر تقارير الاخطاء البرمجية و الاخطاء المدخلة أصبحت لا تتكرر و تم اضافة رابط كتابة تقرير حول اخطاء في التطبيق في موقع souce forge .
+الآن يمكنك استخدام اختصار لوحة المفاتيح Ctrl+S لحفظ أكثرية عناصر لوحة التحكم .
+لتشجيع عملية مشاركة المعلومات قما باضافة خيار مشاركة ملفات ترجمة الموقع للغات المحلية.
+
+
+لوحة تحكم الأعضاء:
+تم اضافة خيار استخدام صورة Gravatar .
+اصبح الان العضو يتلقى رسالة عبر بريده الإلكتروني عند تفعيل حسابه من قبل مدير الموقع في حال كان يتطلب مشاركته موافقة المدير المسبقة.
+
+تطبيق الصفحات :
+أصبح بإمكانك الآن وضع الصفحة الرئيسية رقم اي صفحة تشاء , و ليس فقط الصفحة رقم واحد كما كان سابقاً.
+تم اضافة خاصية اخبار محركات البحث العالمية عن انشاء الصفحة الجديدة و ذلك لتسريع فهرستها و ظهورها اسرع عن البحث .
+
+
+تطبيق الأخبار :
+تم تعديل ترتيب التعليقات على الاخبار بالترتيب التنازلي فيظهر آخر تعليق فوق, كما يمكن للمدير متابعة آخر التعليقات من لوحة التحكم .
+تم اضافة خاصية اخبار محركات البحث العالمية عن انشاء الصفحة الجديدة و ذلك لتسريع فهرستها و ظهورها اسرع عن البحث .
+
+تطبيق المعرض:
+تم تعديل ترتيب التعليقات على المعرض بالترتيب التنازلي فيظهر آخر تعليق فوق,  كما يمكن للمدير متابعة آخر التعليقات من لوحة التحكم .
+الان يمكن وضع العرض الأقصى و الطول الأقصى للمصغرات للصور.
+تم اضافة امكانية وضع ملف فيديدو من YouTube .
+المستندات النصية الأن يمكنك تصفحها اونلاين قبل تنزيلها.
+تم اضافة خاصية اخبار محركات البحث العالمية عن انشاء الصفحة الجديدة و ذلك لتسريع فهرستها و ظهورها اسرع عن البحث .
+
+تطبيق خرائط جوجل :
+اضافة الخريطة في لوحة تحكم المدير ليسهل عليه وضع الإحداثيات على الخريطة.
+
+تطبيق جديد: أهلا و سهلا
+عبارة عن دمج تطبيق الصفحات و الاخبار و المعرض سوية في صفحة واحدة
+
+الأمن:
+تم تحديث قواعد الحماية من ثغرات xss , شكر خاص للسيد محمد زين الدين
+
+
+الرسائل :
+ الاستغناء عن mysql_real_escape_string و تحسين طريقة الكتابة
+
+تحسينات عامة :
+تم تحسين طلب المعلومات الخارجية بحيث اذا لم تكن متوفرة استعاض عنها بمعلومات داخلية خاصة بالتخاطب مع التحديث و طلب الدعم الفني و الإحصائيات
+
+
+
+
+
+
+
+
+
+
+
+
+
+English language
+
+Release 1.5 :
+-------------
+
+* The core :
+	phpTransformer now 60% faster, UTF-8 default languages files encoding and Cache system.
+	Improvement in page numbers system , when display big search result.
+	Ajax technique for statistic block and news bar.
+	Fast sign up program.
+	Security issue, replace stored hashed password by last session number in the cookies.
+	improvement in setup program , adding three choices to import database: empty, sample and baladia.
+	
+* Admin control panel :
+	Improvement in the appearance, the way to login and saving data.
+	Adding new element to translate user and admin interfaces.
+	Adding new element for caching system with cache empty features.
+	Adding support request direct from the admin panel ,
+	Thumbnails pictures for programs, blocks and Themes.
+	When setup new program or block phpTransformer import data from data.sql file.
+	Adding new "no specified date"  for the poll block news bar and news program.
+	
+* Pages program :
+	Adding new option to insert link of the page in the MainMenu
+	
+* News program :
+	Adding upload news picture automatically.
+	
+* Gallery program :
+	Fix bugs and add pdf online reader.
+	
+* Themes : 
+	Improvement in the Default and Teck Themes, and phpTransformer can now accept changing theme from URL Get.
+	
+
+New Versions Roadmap :
+----------------------
+* Write manual book for webmasters and programmers, insert help button in all pages with wiki links.
+
+* Admin control panel:
+		Auto update direct from the internet
+		Add permissions to the admin control panel to enable distribution of work.
+		Add keyboard short key ctrl+s to save info.
+		Merge Gallery program with website files element.
+		Add information policy to enable display user info to other users.
+		Add option to save Website Log in zipped file or database.
+		
+* Add new option leaving account.
+
+* Add new feature to modify php files (Plug-ins)	.
+
+* Convert css and js files to php with file version.
+
+* Add option to activate or disable flood protection system.
+* Add new option in the pages program to set another page than page number one the default page .
+
+	
+
+اللغة العربية
+
+ما الجديد في إصدار بي أتش بي المتحول 1.5 :
+-------------------------------------------
+
+* قلب التطبيق :
+	الان بي لتش بي المتحول اسرع 60% أسرع و حتى أكثر ! لانه تم الاستغناء عن تحويل ملفات اللغة من ترميز اللغةالافتراضية الى الترميز utf-8 الذي يدعمه بي أتش بي المتحول, و تم الاستعاضة عنه بحفظ مباشر لملفات اللغات بصيغة الترميز utf-8 مباشرة. كما تم إنشاء نظام تخزين مؤقت مع ضغط gzip للملفات خاص بالزوار و ذلك لتسريع عملية جلب و تحليل الملعومات قبل اظهاره للزائر.
+	تم تحسين طريقة عرض ارقام الصفحات في حالة البحث ذو النتائج الكبيرة.
+	تم تحويل شريط الاخبار و بلوك الاحصاءات الى تقنية الـ Ajax فذلك سيحل مشكلة الصفحات الساكنة من خلال نظام التخزين المؤقت و يجعلها افضل و أكثر ديناميكية.
+	تم انشاء خيار سريع جديد للتسجيل الجديد لحسابات الاعضاء, يسجل فيه المنتسب المعلومات الاساسية فقط.
+	الأمان , تم استبدال حفظ كلمة السر المشفرة داخل الكوكيز بحفظ رقم آخر جلسة للعضو ,هذه العملية أكثر أمنا.
+	تم تعديل تطبيق التنصيب و تم اضافة ثلاث خيارات لاستيراد قاعدة البيانات الافتراضية (فارغة, افتراضية و بلدية) و تم تحسين فهرسة و ربط جداول قاعدة البيانات.
+	
+	
+* لوحة تحكم المدير : 
+	تم تحسين الشكل و طريقة تسجيل الدخول و حفظ البيانات فيها.
+	إضافة ايقونة جديدة لترجمة واجهة المستدخم و المدير اونلاين.
+	إضافة ايقونة جديدة لنظام التخزين المؤقت مع خيارات للتفريغ المتعددة.
+	إضافة شرح و طلب الدعم الفني المباشرة من لوحة تحكم المدير لتسهيل عملية الدعم.
+	أصبح للبرامج و البلوكات صورة مصغرى و شرح و كذلك الامر لاشكال الموقع.
+	يتم اسيراد ملف data.sql الخاص بالبلوك او التطبيق عند تفعيله, فليس هناك حاجة بعد الان للاستيراد اليدوي.
+	تم اضافة خيار "وقت غير محدد" في كل من بلوك التصويت و نشر شريط الاخبار و تطبيق الاخبار.
+
+* تطبيق الصفحات :
+	إضافة خيار زيادة رابط الصفحة تلقائيا للائحة الرئيسية.
+
+* تطبيق الاخبار :
+	تم اضافة خيار رفع صورة تلقائية مع الخبر.
+
+* تطبيق المعرض :
+	تم اصلاح علة أختيار الكل و قراءة ملفات pdf و اضافة الملفات عند الجزر.
+
+* الأشكال: 
+	تم تحسين كل من الشكلين default و teck و اصبح التطبيق يتسقبل خيار تغيير الشكل عبر عنوان الموقع.
+	
+	
+خارطة طريق الاصدارات القادمة :
+-----------------------------
+
+* إنشاء كتاب دليل للاستخدام للمبرمجين و لاصحاب المواقع, ووضع روابط المساعدة في جميع جوانب التطبيق ارتباطا مع ويكي.
+
+* لوحة تحكم المدير :
+	ترقية تلقائية من الانترنت مباشرة للاصدار الجديد
+	وضع صلاحيات للوحة تحكم المدير لتسهيل الادارة على الشركات الكبرى و توزيع الاعمال بين الاعضاء.
+	اضفة خيار الحفظ من خلال كبس ctrl+s ...
+	دمج تطبيق المعرض مع ملفات الموقع لتسهيل ادارة الملفات
+	وضع صلاحية سماح لعرض معلومات المستخدم لباقي المستخدمين (حاليا محظورة عن الجميع باستثناء المدير)
+	اضافة خيار لحفظ لوغ الموقع في قاعدة البياناتاو الملفات مع الضغط
+
+* اضافة خيار لالغاء اشتراك المستخدم بشكل اتوماتيك.
+* إضافة عنصر جديد باسم plugins  للتعديل على ملفات البرمجة في الموقع مع توافقية لرقم الاصدار و خيار الغاء التعديل 
+* جعل ملفات css & js  ملفات php مع رقم اصدار له.
+* زيادة خيار لتفعيل و تعطيل عنصر مضاد اغراق الموقع.
+* اضافة خيار لتطبيق الصفحات بجعل صفحة غير الصفحة رقم واحد هي الصفحة الرئسية.

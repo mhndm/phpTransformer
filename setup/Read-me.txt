@@ -1,0 +1,12 @@
+1- move phptransformer folder the root web folder , dont use the root folder directly.
+
+2- create database with utf8_general_ci Collation
+
+3- add this line to .htaccess in the main root web folder (optional , for errors) : 
+ErrorDocument 400 /releaseent/ErrorPage.php?err=400
+ErrorDocument 401 /releaseent/ErrorPage.php?err=401
+ErrorDocument 403 /releaseent/ErrorPage.php?err=403
+ErrorDocument 404 /releaseent/ErrorPage.php?err=404
+ErrorDocument 500 /releaseent/ErrorPage.php?err=500
+
+4- 
